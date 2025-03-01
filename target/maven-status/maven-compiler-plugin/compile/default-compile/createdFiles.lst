@@ -1,0 +1,7 @@
+com\thedev\tntbanknotes\comands\NoteCMDS.class
+com\thedev\tntbanknotes\listeners\RedeemListener.class
+com\thedev\tntbanknotes\TntBankNotes.class
+com\thedev\tntbanknotes\utils\ItemBuilder.class
+com\thedev\tntbanknotes\utils\ColorUtil.class
+com\thedev\tntbanknotes\utils\MessageManager.class
+com\thedev\tntbanknotes\utils\NoteManager.class

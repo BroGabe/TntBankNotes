@@ -1,0 +1,20 @@
+messages:
+  no-faction: '&4&lTNT &cYou do not have a faction to deposit tnt into!'
+  redeemed-note: '&4&lTNT &cYou have redeemed &e%amount%&c tnt for your faction!'
+  cannot-exceed-limit: "&4&lTNT &cYou cannot exceed your tnt bank limit!"
+
+tnt-banknote:
+  name: '&4&LTNT Banknote &8(&7%amount%&8)'
+  material: SKULL_ITEM
+  texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU3M2Q3MDQ2ZDZlMDgxOTgzOTBhYTU2YzhmODY3OGMxNmQ0NDA3YWY5ZjIxNGJmMDI5MWYzYzdkYjFmMzc5YSJ9fX0=
+  data: 3
+  glow: true
+  lore:
+    - ''
+    - '&fBecome the ultimate raider with this powerful'
+    - '&fsupply of TnT! Simply redeem this voucher to'
+    - '&fhave tnt deposited straight to your bank!'
+    - ''
+    - '&f* &7Amount: &e%amount%'
+    - ''
+    - '&cRight-Click to Redeem Voucher!'
