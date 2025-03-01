@@ -1,4 +1,4 @@
-package com.thedev.tntbanknotes.comands;
+package com.thedev.tntbanknotes.commands;
 
 import co.aikar.commands.BaseCommand;
 import co.aikar.commands.annotation.*;
@@ -6,7 +6,6 @@ import co.aikar.commands.bukkit.contexts.OnlinePlayer;
 import com.thedev.tntbanknotes.TntBankNotes;
 import com.thedev.tntbanknotes.utils.ColorUtil;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 
 @CommandAlias("tntnotes|tntnote")
 public class NoteCMDS extends BaseCommand {

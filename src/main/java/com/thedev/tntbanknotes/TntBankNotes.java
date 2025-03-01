@@ -1,7 +1,7 @@
 package com.thedev.tntbanknotes;
 
 import co.aikar.commands.PaperCommandManager;
-import com.thedev.tntbanknotes.comands.NoteCMDS;
+import com.thedev.tntbanknotes.commands.NoteCMDS;
 import com.thedev.tntbanknotes.listeners.RedeemListener;
 import com.thedev.tntbanknotes.utils.MessageManager;
 import com.thedev.tntbanknotes.utils.NoteManager;

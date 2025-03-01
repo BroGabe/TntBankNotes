@@ -10,6 +10,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
+import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 
@@ -65,5 +66,21 @@ public class RedeemListener implements Listener {
         }
 
         player.getItemInHand().setAmount(handItem.getAmount() - 1);
+    }
+
+    @EventHandler
+    public void onPlace(BlockPlaceEvent event) {
+        Player player = event.getPlayer();
+
+        if(player.getItemInHand() == null || player.getItemInHand().getType() == Material.AIR) return;
+
+        ItemStack handItem = player.getItemInHand();
+
+        NBTItem nbtItem = new NBTItem(handItem);
+
+        if(nbtItem.getCompound("TntBanknotes") == null) return;
+        if(!nbtItem.getCompound("TntBanknotes").hasTag("StoredTnt")) return;
+
+        event.setCancelled(true);
     }
 }
